@@ -16,3 +16,8 @@ In the example Flygplan.java
 is made to work with the Airplane interface.
 
 ## Bridge
+> "Meant to decouple an abstraction from its implementation so that the two can vary independently".
+
+In code example Persistors and FileWriters can vary independently, 
+and if another Persistor is added it can use the existing FileWriters without requiring any changes in them,
+and vice versa.
