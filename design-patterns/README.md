@@ -26,3 +26,10 @@ and vice versa.
 Generalizes a hieracrchical structure. 
 A tree structure, where composites and leafs have same interface.
 In the code example animals groups are composites which can contain both other animal groups and animals (which are leaf nodes).
+
+## Facade
+Simplifies client interface.
+In example the mongodb API is much simplified to the client to allow 
+only to to add and list flowers in the database.
+
+*Example requires mongodb installed locally and running on default port 27017 to work*.
