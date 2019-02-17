@@ -21,3 +21,8 @@ is made to work with the Airplane interface.
 In code example Persistors and FileWriters can vary independently, 
 and if another Persistor is added it can use the existing FileWriters without requiring any changes in them,
 and vice versa.
+
+## Composite
+Generalizes a hieracrchical structure. 
+A tree structure, where composites and leafs have same interface.
+In the code example animals groups are composites which can contain both other animal groups and animals (which are leaf nodes).
