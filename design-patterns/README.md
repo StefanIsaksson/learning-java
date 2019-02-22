@@ -28,8 +28,13 @@ A tree structure, where composites and leafs have same interface.
 In the code example animals groups are composites which can contain both other animal groups and animals (which are leaf nodes).
 
 ## Facade
-Simplifies client interface.
+Simplifies client interface. 
 In example the mongodb API is much simplified to the client to allow 
 only to to add and list flowers in the database.
 
 *Example requires mongodb installed locally and running on default port 27017 to work*.
+
+## Factory
+Create object without exposing the creation logic to the client. 
+In the example the AnimalFactory method getInstance can create different types of Farm Animals which all 
+implement the interface Animal based on what parameter is passed in.
